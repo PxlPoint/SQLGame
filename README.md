@@ -1,2 +1,2 @@
 # SQLGame
-SQLGame für AWP
+SQLGame für AEuP
