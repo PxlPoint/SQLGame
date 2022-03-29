@@ -1,0 +1,47 @@
+.centerStage{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.sqlBox{
+    background-color: rgb(34, 34, 34);
+    border-radius: 8px;
+}
+
+.inputHolder{
+    margin-inline: 5px;
+    position: relative;
+    bottom: 5px;
+}
+.inputQuery{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(63, 63, 63);
+    padding: 10px;
+    caret-color: white;
+    border: 3px gray solid;
+    border-radius: 8px;
+    color: whitesmoke;
+   
+}  
+.inputQuery:focus-visible{
+    border-color: rgba(0, 0, 0, 0);
+    outline: rgb(15, 218, 49) 3px solid;
+
+}
+.boxHeader{
+    padding: 10px;
+}
+
+.boxHeaderTitle{
+    margin: 0px;
+    left:15px;
+    position: relative;
+    font-size: 20px;
+    color:rgb(15, 218, 49);
+}
+.output{
+    padding-inline: 20px;
+}
+ 
+
