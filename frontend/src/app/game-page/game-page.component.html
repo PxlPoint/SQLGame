@@ -9,7 +9,7 @@
             <p *ngFor="let item of messageArray">-- {{item}}</p>
         </div>
         <div class="inputHolder">
-            <input placeholder="SQL Befehl" class="inputQuery">
+            <input [(ngModel)]="input" (keyup.enter)="sendQuery()" placeholder="SQL Befehl" class="inputQuery">
         </div>
         <div>
             
